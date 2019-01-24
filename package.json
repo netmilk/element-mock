@@ -1,0 +1,33 @@
+{
+  "name": "element-mock",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "cucumber": "./node_modules/.bin/cucumber-js",
+    "lint": "eslint ."
+  },
+  "keywords": [],
+  "author": "Adam Kliment <adam@netmilk.net>",
+  "license": "MIT",
+  "dependencies": {
+    "element-routing": "^0.0.1",
+    "accepts": "^1.3.5",
+    "har": "^1.0.0",
+    "http-status": "^1.3.1"
+  },
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "cucumber": "^5.0.3",
+    "drafter": "^2.0.0-pre.1",
+    "http-string-parser": "0.0.6",
+    "mock-req": "^0.2.0",
+    "eslint": "^5.9.0",
+    "eslint-config-airbnb": "^17.1.0",
+    "eslint-config-airbnb-base": "^13.1.0",
+    "eslint-plugin-import": "^2.14.0",
+    "eslint-plugin-jsx-a11y": "^6.1.2",
+    "eslint-plugin-react": "^7.11.1"
+  }
+}
