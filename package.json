@@ -1,6 +1,6 @@
 {
   "name": "element-mock",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "",
   "main": "index.js",
   "scripts": {
@@ -12,8 +12,8 @@
   "author": "Adam Kliment <adam@netmilk.net>",
   "license": "MIT",
   "dependencies": {
-    "element-routing": "^0.0.3",
     "accepts": "^1.3.5",
+    "element-routing": "0.0.4",
     "har": "^1.0.0",
     "http-status": "^1.3.1"
   },
